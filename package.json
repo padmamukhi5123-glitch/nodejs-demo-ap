@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-demo-ap",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for a GitHub Actions CI/CD pipeline",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
