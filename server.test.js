@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
+
+process.env.NODE_ENV = 'test';
+
 import { createServer } from './server.js';
 
 test('GET /health returns 200 and status ok', async () => {
